@@ -7,4 +7,4 @@ before_install:
   - docker build -t kanavdev46/dockerreact -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true kanavdev46/demoDR npm run test
+  - docker run -e CI=true kanavdev46/dockerreact npm run test
